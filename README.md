@@ -1,6 +1,8 @@
 # SlackToTeams
 
-This is a skunkworks utility that will take a folder containing JSON files from a slack export and publish to a Teams sub-channel
+This is a skunkworks utility that will take a folder containing JSON files from a slack export and publish to a Teams sub-channel.
+Currently it only publishes messages from a public Slack channel, the name of the person, the timestamp and the message sent. 
+It does not thread messages or show attachments or publish the names of the @users
 
 ##Steps
 1. Generate an export from Slack (you have to be an admin)
