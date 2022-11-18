@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SlackToTeams": {
+      "commandName": "Project",
+      "commandLineArgs": "c:/temp/slackExport https://servicemanagementgroup.webhook.office.com/webhookb2/83539139-e6af-4d79-94e1-ea67045f2d65@f08afdc4-69d3-44ad-93fa-30f2a90c14ea/IncomingWebhook/f7263dc348f34735bba862af965f9864/735890ff-bf04-4711-a074-07079f960d3c"
+    }
+  }
+}
