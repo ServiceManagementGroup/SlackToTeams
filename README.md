@@ -12,4 +12,4 @@ There is no support other than your own
 4. Create an incoming webhook into the subchannel you want to publish your messages to. https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook
 5. Copy the generated webhook url to clipboard
 6. Open up a command prompt and navigate to the location of the exe
-7. Run slackToTeams.exe <path to folder> <webhook url>
+7. Run slackToTeams.exe "&lt;path to folder&gt;" "&lt;webhook url&gt;"
