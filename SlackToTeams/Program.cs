@@ -31,7 +31,7 @@ DateTime FromMS(string microSec)
 void ProcessFile(string file)
 {
 
-    FileStream fileStream = new FileStream("C:\\temp\\2022-11-10.json", FileMode.Open);
+    FileStream fileStream = new FileStream(file, FileMode.Open);
 
     List<Root> messages = JsonSerializer.Deserialize<List<Root>>(fileStream);
 
