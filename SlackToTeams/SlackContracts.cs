@@ -54,13 +54,13 @@ public class Element
 {
     public string type { get; set; }
     public List<Element> elements { get; set; }
-    public string text { get; set; }
+    public object text { get; set; }
     public string user_id { get; set; }
     public string channel_id { get; set; }
     public string url { get; set; }
     public string name { get; set; }
     public string unicode { get; set; }
-    public Style style { get; set; }
+    public object style { get; set; }
     public bool verbatim { get; set; }
     public string action_id { get; set; }
     public Placeholder placeholder { get; set; }
